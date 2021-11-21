@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import YouTube from './components/youtube/YouTube.js'
 
 function App() {
+
   return (
     <div className="App">
+      {/*
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      */}
+      <h1>Muboid Test Page</h1>
+      <YouTube></YouTube>
     </div>
   );
 }

@@ -5,8 +5,24 @@
   --highlight1: #ff206e;
   --highlight2: #fbff12;
 }
+
+#root {
+	height: 100%;
+	background-color: var(--bg-color);
+	color: var(--fg-color);
+}
+
+h1 {
+	color:var(--highlight1);
+	text-transform: uppercase;
+}
+
 .App {
   text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .App-logo {
